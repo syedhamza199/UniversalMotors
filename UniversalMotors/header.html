@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>universal Motors</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#caricon").click(function () {
+        $(".truckform").hide();
+      });
+      $("#caricon").click(function () {
+        $(".carform").show();
+      });
+      $("#truckicon").click(function () {
+        $(".truckform").show();
+      });
+      $("#truckicon").click(function () {
+        $(".carform").hide();
+      });
+      $("#bars").click(function () {
+        $(".featuresection").hide();
+      });
+      $("#times").click(function () {
+        $(".featuresection").show();
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <!-- ......HEADER..... -->
+  <header class="headerbg">
+    <div class="container-fluid">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row">
+        <div class="firstsection col-lg-4 col-md-6 col-12 text-center">
+          <div class="new">
+            <p>Japanese Used Global Car Export</p>
+          </div>
+        </div>
+        <div class="secondsection col-lg-4 col-md-6 col-12 text-center">
+          <!-- <img src="https://universalmotorsltd.com/images/flags/uae_flag.jpg" height="15px"> -->
+          <p><i class="fa fa-clock-o" style="position: relative;
+                left: -10px;
+                font-size: 20px;"></i>JAPAN TIME: Mar / 15 / 2023 03:26 AM</p>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12 text-center">
+          <div class="currencydropdown">
+            <button class="currencydropbtn">$ Select Your Currency</button>
+            <div class="currencydropdown-content">
+              <a href="#"><b>$</b><span>&nbsp</span>USD</a>
+              <a href="#"><b>¥</b><span>&nbsp</span>JPY</a>
+              <a href="#"><b>د.إ</b><span>&nbsp</span>AED</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="currencydropdown countrydrop">
+            <button class="currencydropbtn" style="width: inherit;"><i class="fa fa-globe" style="
+                    position: relative;
+                    left: -10px;
+                    font-size: 20px;"></i>Select Your Country</button>
+            <div class="currencydropdown-content">
+              <ul class="countdrop"><a href="#"><img src="https://universalmotorsltd.com/images/flags/BS.svg"
+                    class="flagimg-fluid" alt="Bahamas flag"> <span>Bahamas</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/CL.svg" class="flagimg-fluid"
+                    alt="Chile flag"> <span>Chile</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/CD.svg" class="flagimg-fluid"
+                    alt="Democratic Republic Of The Congo flag"> <span>Democratic RepublicOf The Congo</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/GY.svg" class="flagimg-fluid"
+                    alt="Guyana flag"> <span>Guyana</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/JM.svg" class="flagimg-fluid"
+                    alt="Jamaica flag"> <span>Jamaica</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/KE.svg" class="flagimg-fluid"
+                    alt="Kenya flag"> <span>Kenya</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/MW.svg" class="flagimg-fluid"
+                    alt="Malawi flag"> <span>Malawi</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/MZ.svg" class="flagimg-fluid"
+                    alt="Mozambique flag"> <span>Mozambique</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/PK.svg" class="flagimg-fluid"
+                    alt="Pakistan flag"> <span>Pakistan</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/PY.svg" class="flagimg-fluid"
+                    alt="Paraguay flag"> <span>Paraguay</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/RU.svg" class="flagimg-fluid"
+                    alt="Russia flag"> <span>Russia</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/SS.svg" class="flagimg-fluid"
+                    alt="South Sudan flag"> <span>South Sudan</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/TZ.svg" class="flagimg-fluid"
+                    alt="Tanzania flag"> <span>Tanzania</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/UG.svg" class="flagimg-fluid"
+                    alt="Uganda flag"> <span>Uganda</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/ZM.svg" class="flagimg-fluid"
+                    alt="Zambia flag"> <span>Zambia</span></a>
+                <a href="#"><img src="https://universalmotorsltd.com/images/flags/ZW.svg" class="flagimg-fluid"
+                    alt="Zimbabwe flag"> <span>Zimbabwe</span></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <section class="menuhead sticky-header">
+    <div class="container-fluid">
+      <div class="row" style="justify-content: end;">
+        <div class="col-xl-1 col-lg-2 col-md-2">
+          <img src="images/um.svg" alt="logo" class="header-logo">
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-5">
+          <input type="text" placeholder="Seach" style="width: 100%; padding: 10px; border-radius: 5px;">
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12"
+              style="padding-right: 0 !important;padding-left: 0;">
+              <div class="support">
+                <i class="fa fa-headphones"></i>
+                <div class="currencydropdown">
+                  <button class="currencydropbtn supportbtn">
+                    Support<br>+49 471 9731 9003</button>
+                  <div class="currencydropdown-content supportcontent">
+                    <div class="row bg-white">
+                      <div class="col-md-6">
+                        <p class="m-0" style="font-size: 14px;"><strong>Call Us</strong></p>
+                        <p style="font-size: 14px;">Call our award-winning sales & support team</p>
+                        <i class="fa fa-phone mb-3" style="font-size: 14px;">+49 471 9731 9003</i>
+                        <p class="m-0" style="font-size: 14px;"><strong>Email</strong></p>
+                        <p><a class="p-0" href="mailto:info@universalmotorsltd.com"
+                            style="color: blue; font-size: 14px;">info@universalmotorsltd.com</a></p>
+                        <p class="m-0" style="font-size: 14px;"><strong>Business Hours</strong></p>
+                        <p style="font-size: 14px;">Mon - Fri: 9:00 AM - 6:00 PM<br>
+                          Saturday: 9:00 AM - 1:00 PM</p>
+                      </div>
+                      <div class="col-md-6">
+                        <p class="m-0" style="font-size: 14px;"><strong>Chat Now</strong></p>
+                        <p style="font-size: 14px;">Chat with our sales team & support team for quick answers on product
+                          features, pricing and more.</p>
+                        <button class="chatbtn" style="font-size: 14px;">Chat Now</button>
+                        <p style="font-size: 14px;">24/7</p>
+                        <p class="m-0" style="font-size: 14px;"><strong>Whatsapp</strong></p>
+                        <p><a class="p-0" href="https://wa.me/+49%20471%209731%209003"
+                            style="color: blue; font-size: 14px;">+49 471 9731 9003</a></p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-12">
+              <div class="support">
+                <i class="fa fa-heart"></i>
+                <div class="currencydropdown">
+                  <button class="currencydropbtn supportbtn">
+                    Check<br>Favourites</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+              <div class="registerbox">
+                <i class="fa fa-user"></i>
+                <div class="currencydropdown">
+                  <button class="currencydropbtn supportbtn">
+                    Hello, Sign in<br>My Account</button>
+                  <div class="currencydropdown-content regiscontent">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="m-0" style="font-size: 14px;"><strong>My Account</strong></p>
+                        <button class="regisbtn" id="" style="font-size: 14px;">SIGN IN</button>
+                        <div class="regisfooter">
+                          <p style="font-size: 14px;" class="m-0">New Customer?</p>
+                          <p><a class="p-0 m-0" href="#" style="color: blue; font-size: 14px;"><span>&nbsp</span>Sign
+                              Up</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2"></div>
+        <div class="col-xl-8 col-lg-12 col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <div class="menudropdown currencydropdown">
+                    <button class=" currencydropbtn supportbtn dropdown-toggle">
+                      Search From Stock</button>
+                    <div class="currencydropdown-content menucontent">
+                      <div class="row bg-white">
+                        <div class="col-sm">
+                          <p><strong>Seach By Make</strong></p>
+                          <ul class="countdrop"><a href="#"><img
+                                src="https://universalmotorsltd.com/images/flags/BS.svg" class="flagimg-fluid"
+                                alt="Bahamas flag"> <span>Toyota</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/CL.svg"
+                                class="flagimg-fluid" alt="Chile flag"> <span>Honda</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/GY.svg"
+                                class="flagimg-fluid" alt="Guyana flag"> <span>Mitsubishi</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/JM.svg"
+                                class="flagimg-fluid" alt="Jamaica flag"> <span>Mazda</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/KE.svg"
+                                class="flagimg-fluid" alt="Kenya flag"> <span>Suziki</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/MW.svg"
+                                class="flagimg-fluid" alt="Malawi flag"> <span>Audi</span></a>
+
+                          </ul>
+                        </div>
+
+                        <div class="col-sm">
+                          <p><strong>Seach By Type</strong></p>
+                          <ul class="countdrop"><a href="#"><span>SedanSedan</span></a>
+                            <a href="#"> <span>CoupeCoupe</span></a>
+                            <a href="#"> <span>HatchbackHatchback</span></a>
+                            <a href="#"><span>Station WagonStation Wagon</span></a>
+                            <a href="#"> <span>Pick UpPick Up</span></a>
+                            <a href="#"> <span>Mini VanMini Van</span></a>
+                            <a href="#"> <span>TruckTruck</span></a>
+                            <a href="#"> <span>BusBus</span></a>
+                            <a href="#"> <span>WagonWagon</span></a>
+                            <a href="#"> <span>ConvertibleConvertible</span></a>
+                            <a href="#"> <span>OtherOther</span></a>
+                          </ul>
+                        </div>
+
+                        <div class="col-sm">
+                          <p><strong>Seach By Price</strong></p>
+
+                          <ul class="countdrop"><a href="#"><span>Under $5000</span></a>
+                            <a href="#"> <span>$5000 - $10,000</span></a>
+                            <a href="#"> <span>$10,000 - $15,000</span></a>
+                            <a href="#"><span>$20,000 - $25,000</span></a>
+                            <a href="#"> <span>$25,000 - $40,000</span></a>
+                            <a href="#"> <span>$25,000 - $40,000</span></a>
+                            <a href="#"> <span>$40,000 Over</span></a>
+                          </ul>
+                        </div>
+
+                        <div class="col-sm">
+                          <p><strong>Seach By Year</strong></p>
+
+                          <ul class="countdrop"><a href="#"><span>2007-2011</span></a>
+                            <a href="#"> <span>2011-2015</span></a>
+                            <a href="#"> <span>2015-2019</span></a>
+                            <a href="#"><span>2019-2023</span></a>
+                            <a href="#"> <span>2023</span></a>
+
+                          </ul>
+                        </div>
+                        <div class="col-sm">
+                          <p><strong>Seach By Location</strong></p>
+                          <ul class="countdrop"><a href="#"><img
+                                src="https://universalmotorsltd.com/images/flags/BS.svg" class="flagimg-fluid"
+                                alt="Bahamas flag"> <span>Bahamas</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/CL.svg"
+                                class="flagimg-fluid" alt="Chile flag"> <span>Chile</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/GY.svg"
+                                class="flagimg-fluid" alt="Guyana flag"> <span>Guyana</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/JM.svg"
+                                class="flagimg-fluid" alt="Jamaica flag"> <span>Jamaica</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/KE.svg"
+                                class="flagimg-fluid" alt="Kenya flag"> <span>Kenya</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/MW.svg"
+                                class="flagimg-fluid" alt="Malawi flag"> <span>Malawi</span></a>
+
+                          </ul>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="menudropdown currencydropdown">
+                    <button class=" currencydropbtn supportbtn dropdown-toggle">
+                      Need Help</button>
+                    <div class="currencydropdown-content menucontent ">
+                      <div class="row bg-white needhelp">
+                        <div class="col-lg-12 col-md-12 col-12">
+                          <ul class="countdrop needhelpmenu"><a href="#"><span>Why Choose Universal Motor?</span></a>
+                            <a href="#"> <span>How to Buy</span></a>
+                            <a href="#"> <span>HatchbackHatchback</span></a>
+                            <a href="#"><span>Bank Information</span></a>
+                            <a href="#"> <span>Export Information</span></a>
+                            <a href="#"> <span>Condition of Shipment</span></a>
+                            <a href="#"> <span>Export & Import Servicces</span></a>
+                          </ul>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="menudropdown currencydropdown">
+                    <button class=" currencydropbtn supportbtn dropdown-toggle">
+                      About Universal Motors</button>
+                    <div class="currencydropdown-content menucontent ">
+                      <div class="row bg-white needhelp">
+                        <div class="col-lg-12 col-md-12 col-12">
+                          <ul class="countdrop needhelpmenu"><a href="#"><span>Why Choose Universal Motor?</span></a>
+                            <a href="#"> <span>About Us</span></a>
+                            <a href="#"> <span>Sustainability Fundamental Policy</span></a>
+                            <a href="#"><span>Company Profile</span></a>
+                            <a href="#"> <span>Global Offices</span></a>
+                            <a href="#"> <span>Privacy Policy</span></a>
+                            <a href="#"> <span>Security Export Control</span></a>
+                            <a href="#"> <span>Basic Policy Against Anti-Social Forces</span></a>
+                            <a href="#"> <span>Disclaimer Policy</span></a>
+
+                          </ul>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="menudropdown currencydropdown">
+                    <button class=" currencydropbtn supportbtn dropdown-toggle">
+                      Import Protocols</button>
+                    <div class="currencydropdown-content menucontent ">
+                      <div class="row bg-white needhelp">
+                        <div class="col-lg-12 col-md-12 col-12">
+                          <ul class="countdrop"><a href="#"><img
+                                src="https://universalmotorsltd.com/images/flags/BS.svg" class="flagimg-fluid"
+                                alt="Bahamas flag"> <span>Toyota</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/CL.svg"
+                                class="flagimg-fluid" alt="Chile flag"> <span>Honda</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/GY.svg"
+                                class="flagimg-fluid" alt="Guyana flag"> <span>Mitsubishi</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/JM.svg"
+                                class="flagimg-fluid" alt="Jamaica flag"> <span>Mazda</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/KE.svg"
+                                class="flagimg-fluid" alt="Kenya flag"> <span>Suziki</span></a>
+                            <a href="#"><img src="https://universalmotorsltd.com/images/flags/MW.svg"
+                                class="flagimg-fluid" alt="Malawi flag"> <span>Audi</span></a>
+
+                          </ul>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="padding: 5px 10px;" href="#">
+                    How To Pay </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="padding: 5px 10px;" href="#">
+                    FAQs </a>
+                </li>=======
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ........MOBILE HEADER....... -->
+  <section class="mobile-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
+          <input type="checkbox" nam="" id="check">
+          <div class="mobile-container">
+            <label for="check">
+              <span class="fa fa-times" id="times"></span>
+              <span class="fa fa-bars" id="bars"></span>
+            </label>
+            <div class="sidemenu">
+              <img src="https://www.universalmotorsltd.com/images/um.svg" class="side-logo" alt="hamburger icon">
+              <ul class="sidelist">
+                <li class="highlighted"><i class="fa fa-gear"></i>Site Setting</li>
+                <li>Currency</li>
+                <li class="highlighted"><i class="fa fa-search"></i>Search</li>
+                <li>Seach by Make</li>
+                <li>Seach by Type</li>
+                <li>Seach by Price</li>
+                <li>Seach by Year</li>
+                <li>Seach by Inventory Location</li>
+
+                <li class="highlighted"><i class="fa fa-globe"></i>Local Service</li>
+                <li><a href="#"><img src="https://universalmotorsltd.com/images/flags/BS.svg" class="flagimg-fluid"
+                      alt="Bahamas flag"> <span>Bahamas</span></a></li>
+                <li class="highlighted"><i class="fa fa-phone"></i>Contact Us</li>
+                <li>+49 471 9731 9003</li>
+                <li>info@universalmotorsltd.com</li>
+                <li>+49 471 9731 9003</li>
+                <li class="highlighted"><i class="fa fa-question"></i>Need Help</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+                <li class="highlighted"><i class="fa fa-info"></i>About UM</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+                <li>user</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <img src="https://www.universalmotorsltd.com/images/um.svg" alt="logo" class="mobile-logo" width="50px">
+        </div>
+        <div class="col-7">
+          <div class="featuresection">
+            <!-- <a href="#search"><i class="fa fa-search"></i></a> -->
+            <a href="#search"><img src="https://img.icons8.com/ios-glyphs/2x/search.png" alt="" width="25px"></a">
+              <a href="#support"><img
+                  src="https://img.icons8.com/external-icongeek26-outline-icongeek26/2x/external-headphone-music-icongeek26-outline-icongeek26.png"
+                  alt="" width="25px"></a">
+                <a href="#customer"><img src="https://img.icons8.com/ios/2x/hearts.png" alt="" width="25px"></a">
+                  <a href="#"><img src="https://img.icons8.com/fluency-systems-regular/2x/user.png" alt="" width="25px">
+                    </a">
+
+                    <!-- <a href="#support"><i class="fa fa-headphones"></i></a>
+                      <a href="#"><i class="fa fa-heart-o"></i></a>
+                      <a href="#customer"><i class="fa fa-user-o"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- .........Carousel......... -->
+  <section>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/3.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ................SEARCHING FORM............... -->
+  <section class="searching-forms">
+    <div class="container">
+      <div class="formrow row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 d-none"></div>
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 formvariation">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2 col-sm-2 text-right vehicleicon">
+                <span class="fa fa-car" id="caricon"></span>
+              </div>
+              <div class="col-md-2 col-sm-2 vehicleicon">
+                <span class="fa fa-truck" id="truckicon"></span>
+              </div>
+              <div class="col-md-8 col-sm-8"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 d-none"></div>
+      </div>
+
+      <div class="formrow row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 d-none"></div>
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 p-0 formss">
+          <div class="container">
+            <div class="row">
+              <div class="showcase-Box carform">
+                <form action="https://www.gcejapan.com/used-cars" id="homeSearchForm">
+                  <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Make:</label>
+                        <select class="custom-select " id="make-select" targetselectid="model-select">
+                          <option slug="" value="">Select Make</option>
+                          <option slug="toyota" value="1">Toyota (1256)</option>
+                          <option slug="nissan" value="2">Nissan (152)</option>
+                          <option slug="honda" value="3">Honda (89)</option>
+                          <option slug="mitsubishi" value="4">Mitsubishi (83)</option>
+                          <option slug="subaru" value="5">Subaru (84)</option>
+                          <option slug="mazda" value="6">Mazda (86)</option>
+                          <option slug="suzuki" value="7">Suzuki (28)</option>
+                        </select>
+                        <input type="hidden" name="make" id="make-hidden-input" value="">
+                      </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Model:</label>
+                        <select class="custom-select custom-readonly" id="model-select" targetselectid="">
+
+                          <option value="">Select Model</option>
+                        </select>
+                        <input type="hidden" name="model" id="model-hidden-input" value="">
+                      </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Body Type:</label>
+                        <select class="custom-select " name="bodytype" id="body-type-select">
+                          <option value="">Body Type</option>
+                          <option value="sedan">Sedan</option>
+                          <option value="coupe">Coupe</option>
+                          <option value="hatchback">Hatchback</option>
+                          <option value="station-wagon">Station Wagon</option>
+                          <option value="suv">SUV</option>
+                          <option value="pick-up">Pick Up</option>
+                          <option value="van">Van</option>
+                          <option value="mini-van">Mini Van</option>
+                          <option value="truck">Truck</option>
+                          <option value="bus">Bus</option>
+                          <option value="wagon">Wagon</option>
+                          <option value="convertible">Convertible</option>
+                          <option value="other">Other</option>
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Steering:</label>
+                        <select class="custom-select " name="steering" id="steering-select">
+                          <option value="">Select Steering</option>
+                          <option value="right-hand">Right Hand</option>
+                          <option value="left-hand">Left Hand</option>
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Manufacturing Year:</label>
+                        <div class="row">
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 pr-1">
+                            <select class="custom-select  " name="year-from" id="year-from-select" targetselectid="">
+                              <option value="">From</option>
+                              <option value="2023">2023</option>
+                              <option value="2022">2022</option>
+                              <option value="2021">2021</option>
+                              <option value="2020">2020</option>
+                              <option value="2019">2019</option>
+                            </select>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 pl-1">
+                            <select class="custom-select  " name="year-to" id="year-to-select" targetselectid="">
+                              <option value="">To</option>
+                              <option value="1954">1954</option>
+                              <option value="1953">1953</option>
+                              <option value="1952">1952</option>
+                              <option value="1951">1951</option>
+                              <option value="1950">1950</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <div class="showcase-Boxbtn">
+                        <button type="submit">Search Car</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+              <div class="showcase-Box truckform">
+                <form action="https://www.gcejapan.com/used-cars" id="homeSearchForm">
+                  <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Make:</label>
+                        <select class="custom-select " id="make-select" targetselectid="model-select">
+                          <option slug="" value="">Select Make</option>
+                          <option slug="toyota" value="1">Toyota (1256)</option>
+                          <option slug="nissan" value="2">Nissan (152)</option>
+                          <option slug="honda" value="3">Honda (89)</option>
+                          <option slug="mitsubishi" value="4">Mitsubishi (83)</option>
+                          <option slug="subaru" value="5">Subaru (84)</option>
+                          <option slug="mazda" value="6">Mazda (86)</option>
+                          <option slug="suzuki" value="7">Suzuki (28)</option>
+                        </select>
+                        <input type="hidden" name="make" id="make-hidden-input" value="">
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Model:</label>
+                        <select class="custom-select custom-readonly" id="model-select" targetselectid="">
+
+                          <option value="">Select Model</option>
+                        </select>
+                        <input type="hidden" name="model" id="model-hidden-input" value="">
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Registration Date from</label>
+                        <select class="custom-select " name="bodytype" id="body-type-select">
+                          <option value="">Any</option>
+                          <option value="sedan">2022</option>
+                          <option value="coupe">2021</option>
+                          <option value="hatchback">2020</option>
+
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Miles to</label>
+                        <select class="custom-select " name="bodytype" id="body-type-select">
+                          <option value="">Any</option>
+                          <option value="sedan">10,000</option>
+                          <option value="coupe">20,000</option>
+                          <option value="hatchback">30,0000</option>
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Price Quotation</label>
+                        <select class="custom-select " name="steering" id="steering-select">
+
+                          <option value="right-hand">Net</option>
+                          <option value="left-hand">Gross</option>
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Price Until:</label>
+                        <select class="custom-select " name="steering" id="steering-select">
+                          <option value="">Any</option>
+                          <option value="sedan">$10,000</option>
+                          <option value="coupe">$20,000</option>
+                          <option value="hatchback">430,000</option>
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxselect">
+                        <label>Town or Postcode</label>
+                        <input type="text" placeholder="Any"
+                          style="width: -webkit-fill-available; border: none; padding: 4px;">
+                      </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="showcase-Boxbtn">
+                        <button type="submit">Search Truck</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 d-none"></div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- .................SIDEBAR.................... -->
+  <section class="sidebar-menu">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 d-md-block d-none">
+          <div class="showcase-Make">
+            <h5 style="font-size:18px; color: black; ">Search By Make</h5>
+            <ul class="countdrop">
+              <a href="#"><img src="https://universalmotorsltd.com/images/make/Toyota.png" class="flagimg-fluid"
+                  alt="Bahamas flag"> <span>Toyota</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Nissan.png" class="flagimg-fluid"
+                  alt="Chile flag"> <span>Nissan</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Honda.png" class="flagimg-fluid"
+                  alt="Guyana flag"> <span>Honda</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Mitsubishi.png" class="flagimg-fluid"
+                  alt="Jamaica flag"> <span>Mitsubishi</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Suzuki.png" class="flagimg-fluid"
+                  alt="Kenya flag"> <span>Suzuki</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Subaru.png" class="flagimg-fluid"
+                  alt="Malawi flag"> <span>Subaru</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Audi.png" class="flagimg-fluid"
+                  alt="Malawi flag"> <span>Audi</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Hino.png" class="flagimg-fluid"
+                  alt="Malawi flag"> <span>Hino</span></a>
+
+            </ul>
+            <h5>Search By Steering</h5>
+            <ul class="countdrop">
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/default/right.png" class="flagimg-fluid"
+                  alt="Malawi flag"> <span>Right Hand</span></a>
+              <a href="#"><img src="https://www.universalmotorsltd.com/images/default/left.png" class="flagimg-fluid"
+                  alt="Malawi flag"> <span>Left Hand</span></a>
+            </ul>
+            <h5 style="font-size:18px; color: black; ">Search By Price</h5>
+            <ul class="countdrop">
+              <a href="#"><span>Under $10,0000</span></a>
+              <a href="#"><span>Above $10,0000</span></a>
+            </ul>
+            <h5 style="font-size:18px; color: black; ">Inventory Location</h5>
+            <ul class="countdrop"><a href="#"><img src="https://universalmotorsltd.com/images/flags/BS.svg"
+                  class="flagimg-fluid" alt="Bahamas flag"> <span>Bahamas</span></a>
+              <a href="#"><img src="https://universalmotorsltd.com/images/flags/CL.svg" class="flagimg-fluid"
+                  alt="Chile flag"> <span>Chile</span></a>
+              <a href="#"><img src="https://universalmotorsltd.com/images/flags/GY.svg" class="flagimg-fluid"
+                  alt="Guyana flag"> <span>Guyana</span></a>
+              <a href="#"><img src="https://universalmotorsltd.com/images/flags/JM.svg" class="flagimg-fluid"
+                  alt="Jamaica flag"> <span>Jamaica</span></a>
+              <a href="#"><img src="https://universalmotorsltd.com/images/flags/KE.svg" class="flagimg-fluid"
+                  alt="Kenya flag"> <span>Kenya</span></a>
+              <a href="#"><img src="https://universalmotorsltd.com/images/flags/MW.svg" class="flagimg-fluid"
+                  alt="Malawi flag"> <span>Malawi</span></a>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 d-none"></div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-12 f1">
+          <h5>Headquarters</h5>
+          <p>675-2 Naka Arai,Yoshimi Machi,Hikigun,Saitama Prefeture.</p>
+          <br>
+          <ul style="list-style: none; padding: 0;">
+            <li>
+              <h6>TEL:</h6><a href="tel:+49 471 9731 9003">
+                +49 471 9731 9003</a><br>
+              <a href="tel:+971 52 796 7035">+971 52 796 7035</a>
+            </li><br>
+            <li>
+              <h6>Corporate Site:</h6><a href="https://www.universalmotorsltd.com/" target="">
+                https://www.universalmotorsltd.com/</a>
+            </li><br>
+            <li>
+              <h6>E-mail: </h6><a href="%20csd@universalmotorsltd.com">
+                csd@universalmotorsltd.com</a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 col-12 f1">
+          <h4>By Make</h4>
+          <ul class="countdrop">
+            <a href="#"><img src="https://universalmotorsltd.com/images/make/Toyota.png" class="flagimg-fluid"
+                alt="Bahamas flag"> <span>Toyota</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Nissan.png" class="flagimg-fluid"
+                alt="Chile flag"> <span>Nissan</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Honda.png" class="flagimg-fluid"
+                alt="Guyana flag"> <span>Honda</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Mitsubishi.png" class="flagimg-fluid"
+                alt="Jamaica flag"> <span>Mitsubishi</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Suzuki.png" class="flagimg-fluid"
+                alt="Kenya flag"> <span>Suzuki</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Subaru.png" class="flagimg-fluid"
+                alt="Malawi flag"> <span>Subaru</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Audi.png" class="flagimg-fluid"
+                alt="Malawi flag"> <span>Audi</span></a>
+            <a href="#"><img src="https://www.universalmotorsltd.com/images/make/Hino.png" class="flagimg-fluid"
+                alt="Malawi flag"> <span>Hino</span></a>
+
+          </ul>
+        </div>
+
+        <div class="col-md-2 d-md-block d-none f1">
+          <h4>By Type</h4>
+          <ul class="countdrop"><a href="#"><span>SedanSedan</span></a>
+            <a href="#"> <span>CoupeCoupe</span></a>
+            <a href="#"> <span>HatchbackHatchback</span></a>
+            <a href="#"><span>Station WagonStation Wagon</span></a>
+            <a href="#"> <span>Pick UpPick Up</span></a>
+            <a href="#"> <span>Mini VanMini Van</span></a>
+            <a href="#"> <span>TruckTruck</span></a>
+            <a href="#"> <span>BusBus</span></a>
+            <a href="#"> <span>WagonWagon</span></a>
+            <a href="#"> <span>ConvertibleConvertible</span></a>
+            <a href="#"> <span>OtherOther</span></a>
+          </ul>
+        </div>
+
+        <div class="col-md-2 d-md-block d-none f1">
+          <h4>By Price</h4>
+          <ul class="countdrop"><a href="#"><span>Under $5000</span></a>
+            <a href="#"> <span>$5000 - $10,000</span></a>
+            <a href="#"> <span>$10,000 - $15,000</span></a>
+            <a href="#"><span>$20,000 - $25,000</span></a>
+            <a href="#"> <span>$25,000 - $40,000</span></a>
+            <a href="#"> <span>$25,000 - $40,000</span></a>
+            <a href="#"> <span>$40,000 Over</span></a>
+          </ul>
+        </div>
+
+        <div class="col-md-2 d-md-block d-none">
+          <h4>By Location</h4>
+          <ul class="countdrop"><a href="#"><img src="https://universalmotorsltd.com/images/flags/BS.svg"
+                class="flagimg-fluid" alt="Bahamas flag"> <span>Bahamas</span></a>
+            <a href="#"><img src="https://universalmotorsltd.com/images/flags/CL.svg" class="flagimg-fluid"
+                alt="Chile flag"> <span>Chile</span></a>
+            <a href="#"><img src="https://universalmotorsltd.com/images/flags/GY.svg" class="flagimg-fluid"
+                alt="Guyana flag"> <span>Guyana</span></a>
+            <a href="#"><img src="https://universalmotorsltd.com/images/flags/JM.svg" class="flagimg-fluid"
+                alt="Jamaica flag"> <span>Jamaica</span></a>
+            <a href="#"><img src="https://universalmotorsltd.com/images/flags/KE.svg" class="flagimg-fluid"
+                alt="Kenya flag"> <span>Kenya</span></a>
+            <a href="#"><img src="https://universalmotorsltd.com/images/flags/MW.svg" class="flagimg-fluid"
+                alt="Malawi flag"> <span>Malawi</span></a>
+
+          </ul>
+        </div>
+      </div>
+      <div class="copyright row">
+        <div class="col-md-3 col-3">
+          <img src="images/um.svg" alt="logo" class="header-logo">
+        </div>
+        <div class="col-md-6 col-9 text-center">
+            <p>Copyright © 2023 - All Rights Reserved By Universal Motors.</p>
+        </div>
+        <div class="col-md-3 col-3 text-right">
+          <img src="https://www.universalmotorsltd.com/images/visa.png" alt="logo" class="payment-img">
+          <img src="https://www.universalmotorsltd.com/images/mastercard.png" alt="logo" class="payment-img">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
