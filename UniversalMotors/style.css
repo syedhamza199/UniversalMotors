@@ -80,6 +80,7 @@ overflow-y: scroll;
 }
 .menucontent{
 background-color: transparent;
+  box-shadow: none;
 }
 .currencydropdown-content.regiscontent {
     padding: 20px;
